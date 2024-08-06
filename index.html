@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>STMIK Jabar </title>
+  <meta name="title" content="STMIK Jabar ">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.png" width="162" height="50" alt="STMIK logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Beranda</a>
+          </li>
+
+          <li class="dropdown"><a class="main-nav-link dropbtn " href="#profil">Profil</a>
+            <div class="dropdown-content" style="left:0;">
+              <a href="sejarah.html"> Sejarah</a>
+              <a href="profil.html"> Visi Misi</a>
+              <a href="dosen.html"> Dosen</a>
+            </div>
+          </li>
+
+          <li class="dropdown"><a class="main-nav-link dropbtn " href="#siaplus+">Siaplus+</a>
+            <div class="dropdown-content" style="left:0;">
+              <a href="https://dos.stmikjabar.ac.id/"> Dosen</a>
+              <a href="https://siap.stmikjabar.ac.id/login"> Mahasiswa</a>
+            </div>
+          </li>
+
+          <li class="navbar-item">
+            <a href="https://journal.stmikjabar.ac.id/index.php/i" class="navbar-link" data-nav-link>Riset</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="kontak.html" class="navbar-link" data-nav-link>Kontak</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="button-biru">
+          <a href="https://pmb.stmikjabar.ac.id/" class="">
+
+            Pendaftaran
+          </a>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+        style="background-image: url('./assets/images/confetti-doodles.svg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 section-title">
+              Selamat Datang di <span class="span">STMIK Jabar</span>
+            </h1>
+
+            <p class="hero-text-1">
+              Menghasilkan Lulusan yang berkualitas unggul dan berkarakter.
+            </p>
+
+
+            <button class="button-biru">
+              Jelajahi
+            </button>
+
+          </div>
+
+          <figure class="hero-banner">
+
+            <div class="img-holder one" style="--width: 270; --height: 300;">
+              <img src="./assets/images/hero-banner-1.jpg" width="270" height="300" alt="hero banner" class="img-cover">
+            </div>
+
+            <div class="img-holder two" style="--width: 240; --height: 370;">
+              <img src="./assets/images/hero-banner-2.jpg" width="240" height="370" alt="hero banner" class="img-cover">
+            </div>
+
+            <!-- <img src="./assets/images/hero-shape-1.svg" width="380" height="190" alt="" class="shape hero-shape-1"> -->
+
+            <img src="./assets/images/hero-shape-2.png" width="622" height="551" alt="" class="shape hero-shape-2">
+
+          </figure>
+
+        </div>
+        <div class="sticky-button">
+          <a href="#home" class="">
+
+            <button class="button">
+              <svg class="svgIcon" viewBox="0 0 384 512">
+                <path
+                  d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z">
+                </path>
+                </path>
+              </svg>
+            </button>
+          </a>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category" aria-label="category">
+        <div class="container">
+
+          <p class="section-subtitle">STMIK Jabar</p>
+
+          <h2 class="h2 section-title-2">
+            Menghasilkan <span class="span"> Lulusan </span> yang Berkualitas
+          </h2>s
+
+          <p class="section-text">
+
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="e-card playing category-card">
+                <div class="image"></div>
+
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+
+
+                <div class="infotop ">
+                  <div class="card-icon">
+                    <img src="./assets/images/services(1).png" width="80" height="80" loading="lazy"
+                      alt="Non-Degree Programs" class="img">
+                  </div>
+                  Why STMIK Jabar ?
+                  <br>
+                  <div class="button-mustard-wrap">
+                    <a href="why.html" class="">
+                      <button class="button-mustard">
+                        JELAJAHI
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="e-card playing category-card">
+                <div class="image"></div>
+
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+
+
+                <div class="infotop ">
+                  <div class="card-icon">
+                    <img src="./assets/images/services(2).png" width="80" height="80" loading="lazy"
+                      alt="Non-Degree Programs" class="img">
+                  </div>
+                  Campus Life
+                  <br>
+                  <div class="button-mustard-wrap">
+                    <a href="campuslife.html" class="">
+                      <button class="button-mustard">
+                        JELAJAHI
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="e-card playing category-card">
+                <div class="image"></div>
+
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+
+
+                <div class="infotop ">
+                  <div class="card-icon">
+                    <img src="./assets/images/services(3).png" width="80" height="80" loading="lazy"
+                      alt="Non-Degree Programs" class="img">
+                  </div>
+                  Program Studi
+                  <br>
+                  <div class="button-mustard-wrap">
+                    <a href="prodi.html" class="">
+                      <button class="button-mustard">
+                        JELAJAHI
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="e-card playing category-card">
+                <div class="image"></div>
+
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+
+
+                <div class="infotop ">
+                  <div class="card-icon">
+                    <img src="./assets/images/services(4).png" width="80" height="80" loading="lazy"
+                      alt="Non-Degree Programs" class="img">
+                  </div>
+                  Beasiswa
+                  <br>
+                  <div class="button-mustard-wrap">
+                    <a href="beasiswa.html" class="">
+                      <button class="button-mustard">
+                        JELAJAHI
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <div class="img-holder" style="--width: 520; --height: 370;">
+              <img src="./assets/images/banner-hero-about.png" width="520" height="370" loading="lazy"
+                alt="about banner" class="img-cover">
+            </div>
+
+            <!-- <img src="./assets/images/about-shape-1.svg" width="360" height="420" loading="lazy" alt=""
+              class="shape about-shape-1"> -->
+
+            <img src="./assets/images/about-shape-2.png" width="371" height="220" loading="lazy" alt=""
+              class="shape about-shape-2">
+
+            <img src="./assets/images/about-shape-3.png" width="722" height="528" loading="lazy" alt=""
+              class="shape about-shape-3">
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Tentang Kami</p>
+
+            <h2 class="h2 section-title-1">
+              <span class="span"> STMIK Jabar</span>
+            </h2>
+
+            <p class="section-text">
+              Sekolah Tinggi Manajemen Informatika dan Komputer Jawa Barat (STMIK JABAR) sebagai lembaga pendidikan
+              tinggi dalam bidang Teknologi Informasi dan Komunikasi (School of Information Technology) mempunyai visi
+              masa depan untuk "Menjadi Perguruan Tinggi yang Unggul dalam bidang Teknologi Informasi dan Komunikasi
+              yang fokus pada Rekayasa Perangkat Lunak di tingkat Regional pada tahun 2037".
+
+            </p>
+
+            <ul class="about-list">
+
+              <!-- <li class="about-item">
+
+                <span class="span">Expert Trainers</span>
+              </li>
+
+              <li class="about-item">
+
+                <span class="span">Online Remote Learning</span>
+              </li>
+
+              <li class="about-item">
+
+                <span class="span">Lifetime Access</span>
+              </li> -->
+
+            </ul>
+
+            <img src="./assets/images/about-shape-4.svg" width="100" height="100" loading="lazy" alt=""
+              class="shape about-shape-4">
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COURSE
+      -->
+
+      <section class="section course" id="courses" aria-label="course">
+        <div class="container">
+
+          <p class="section-subtitle">ADA APA DI STMIK JABAR ?</p>
+
+          <h2 class="h2 section-title-2">Blog <span class="span">STMIK Jabar</span></h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course-3.jpg" width="370" height="220" loading="lazy" alt="STMIK Jabar Juara Datathon 2022
+" class="img-cover">
+                </figure>
+
+                <div class="abs-badge">
+
+                  <span class="span">NEWS</span>
+                </div>
+
+                <div class="card-content">
+
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">STMIK Jabar Juara Datathon 2022
+                    </a>
+                  </h3>
+
+                  <div class="wrapper">
+
+                    <p class="rating-text">Pak Diash Firdaus, M.T. menjadi juara Lomba Bandung Datathon @bdg.data
+                      dengan nama Aplikasi SiHampang...</p>
+
+                  </div>
+
+                  <data class="price" value="29"></data>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+
+                    </li>
+
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course-1.jpg" width="370" height="220" loading="lazy" alt="Inkubator STMIK Jabar, ITB, UMB, Dinas Kota Bandung Juara Datathon 2022
+" class="img-cover">
+                </figure>
+
+                <div class="abs-badge">
+
+                  <span class="span">NEWS</span>
+                </div>
+
+                <div class="card-content">
+
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Inkubator STMIK Jabar, ITB, UMB, Dinas Kota Bandung Juara Datathon
+                      2022
+                    </a>
+                  </h3>
+
+                  <div class="wrapper">
+
+                    <p class="rating-text">Team Inkubator STMIK JABAR bekerja sama dengan ITB, UMB, Dinas Pangan Kota
+                      Bandung...</p>
+
+                  </div>
+
+                  <data class="price" value="29"></data>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+
+                    </li>
+
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course-2.jpg" width="370" height="220" loading="lazy" alt="STMIK Jabar Juara Datathon 2022
+" class="img-cover">
+                </figure>
+
+                <div class="abs-badge">
+
+                  <span class="span">NEWS</span>
+                </div>
+
+                <div class="card-content">
+
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Tiga Mahasiswa STMIK JABAR Mengikuti KKN Tematik di Daerah
+                      Pangandaran
+                    </a>
+                  </h3>
+
+                  <div class="wrapper">
+
+                    <p class="rating-text">Sebagai bentuk implementasi Tri Dharma Pendidikan, STMIK JABAR berpartisipasi
+                      dalam KKN Tematik...</p>
+
+                  </div>
+
+                  <data class="price" value="29"></data>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+
+                    </li>
+
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #VIDEO
+      -->
+
+      <section class="video has-bg-image" aria-label="video"
+        style="background-image: url('./assets/images/video-bg.png')">
+        <div class="container">
+
+          <div class="video-card">
+
+            <div class="video-banner img-holder has-after" style="--width: ; --height: ;">
+              <img src="./assets/images/about-banner.jpg" width="970" height="550" loading="lazy" alt="video banner"
+                class="img-cover">
+
+            </div>
+            <div class="wrapper-play-button">
+
+              <a href="https://www.youtube.com/channel/UC-9Q7Vkmf1ekdsySfNas6RA" class="">
+
+                <div class="container-button">
+                  <div class="hover bt-1"></div>
+                  <div class="hover bt-2"></div>
+                  <div class="hover bt-3"></div>
+                  <div class="hover bt-4"></div>
+                  <div class="hover bt-5"></div>
+                  <div class="hover bt-6"></div>
+                  <button class="play-button"></button>
+                </div>
+              </a>
+            </div>
+
+            <img src="./assets/images/video-shape-1.png" width="1089" height="605" loading="lazy" alt=""
+              class="shape video-shape-1">
+
+            <img src="./assets/images/video-shape-2.png" width="158" height="174" loading="lazy" alt=""
+              class="shape video-shape-2">
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        -#TESTI
+       -->
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Apa yang alumni katakan tentang STMIK Jabar</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img class="testimonial-img" alt="Photo of customer Dave Bryson"
+                src="./assets/images/customers/ilhan.jpg" />
+              <blockquote class="testimonial-text">
+                STMIK Jabar luar biasa, lulusan mudah bekerja dan saya melanjutkan S2 di luar negeri.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Ilhan Juldan</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img class="testimonial-img" alt="Photo of customer Ben Hadley"
+                src="./assets/images/customers/iqbal.jpg" />
+              <blockquote class="testimonial-text">
+                Selalu memberikan pendidikan berkualitas tinggi dan membekali dengan kemampuan
+                di industri.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Iqbal Maulana</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img class="testimonial-img" alt="Photo of customer Steve Miller"
+                src="./assets/images/customers/aan.jpg" />
+              <blockquote class="testimonial-text">
+                Kampus yang unggul dalam memberikan pengetahuan dan skill yang relevan dengan industri.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Aan Andiyana</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img class="testimonial-img" alt="Photo of customer Hannah Smith"
+                src="./assets/images/customers/ridwan.jpg" />
+              <blockquote class="testimonial-text">
+                Kampus ini memberikan fondasi akademik yang solid dan pengalaman praktis yang luar biasa
+              </blockquote>
+              <p class="testimonial-name">&mdash; Ridwan Fadhillah</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img src="./assets/images/gallery/gallery-1.jpg" alt="Photo of beautifully
+              arranged food" />
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/images/gallery/gallery-2.jpg" alt="Photo of beautifully
+              arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/images/gallery/gallery-3.jpg" alt="Photo of beautifully
+              arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/images/gallery/gallery-4.jpg" alt="Photo of beautifully
+              arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/images/gallery/gallery-5.jpg" alt="Photo of beautifully
+              arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/images/gallery/gallery-6.jpg" alt="Photo of beautifully
+              arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/images/gallery/gallery-7.jpg" alt="Photo of beautifully
+              arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/images/gallery/gallery-8.jpg" alt="Photo of beautifully
+              arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/images/gallery/gallery-9.jpg" alt="Photo of beautifully
+              arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/images/gallery/gallery-10.jpg" alt="Photo of beautifully
+              arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/images/gallery/gallery-11.jpg" alt="Photo of beautifully
+              arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="./assets/images/gallery/gallery-12.jpg" alt="Photo of beautifully
+              arranged food" />
+          </figure>
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #STATE
+      -->
+
+      <section class="section stats" aria-label="stats">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="stats-card" style="--color: 170, 75%, 41%">
+                <h3 class="card-title">1000+</h3>
+
+                <p class="card-text">Mahasiswa</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="stats-card" style="--color: 351, 83%, 61%">
+                <h3 class="card-title">20+</h3>
+
+                <p class="card-text">Dosen</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="stats-card" style="--color: 260, 100%, 67%">
+                <h3 class="card-title">100%</h3>
+
+                <p class="card-text">Kelulusan</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="stats-card" style="--color: 42, 94%, 55%">
+                <h3 class="card-title">35</h3>
+
+                <p class="card-text">Pusat Kajian</p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+    </article>
+  </main>
+
+  <!-- 
+        - #FEATURED
+      -->
+
+  <section class="section-featured">
+    <div class="container">
+      <h2 class="heading-featured-in">STMIK Jabar Partners</h2>
+      <div class="logos">
+        <img src="assets/images/aptikom.png" alt="aptikom" />
+        <img src="assets/images/unisel.png" alt="unisel" />
+        <img src="assets/images/aptikom.png" alt="aptikom" />
+        <img src="assets/images/unisel.png" alt="unisel" />
+        <img src="assets/images/aptikom.png" alt="aptikom" />
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="162" height="50" alt="STMIK logo">
+          </a>
+
+          <p class="footer-brand-text">
+            Made using <span style="color:orange">HTML</span> + <span style="color:rgb(73, 73, 253)">CSS</span>
+          </p>
+
+          <div class="wrapper">
+            <span class="span">Alamat:</span>
+
+            <address class="address">Jl. Soekarno-Hatta No. 777</address>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Telepon:</span>
+
+            <a href="tel:+011234567890" class="footer-link">(022) 7335108</a>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Email:</span>
+
+            <a href="mailto:info@stmikjabar.ac.id" class="footer-link">info@stmikjabar.ac.id</a>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Menu</p>
+          </li>
+
+          <li>
+            <a href="profil.html" class="footer-link">Profil</a>
+          </li>
+
+          <li>
+            <a href="https://siap.stmikjabar.ac.id/login" class="footer-link">SIAPLUS+</a>
+          </li>
+
+          <li>
+            <a href="https://journal.stmikjabar.ac.id/index.php/i" class="footer-link">Riset</a>
+          </li>
+
+          <li>
+            <a href="https://pmb.stmikjabar.ac.id/" class="footer-link">Daftar</a>
+          </li>
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Lainnya</p>
+          </li>
+
+          <li>
+            <a href="why.html" class="footer-link">Why STMIK Jabar ?</a>
+          </li>
+
+          <li>
+            <a href="campuslife.html" class="footer-link">Campus Life</a>
+          </li>
+
+          <li>
+            <a href="prodi.html" class="footer-link">Program Studi</a>
+          </li>
+
+          <li>
+            <a href="beasiswa.html" class="footer-link">Beasiswa</a>
+          </li>
+
+          <li>
+            <a href="https://pmb.stmikjabar.ac.id/login" class="footer-link">Sign In/Registration</a>
+          </li>
+
+
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Kontak</p>
+
+          <p class="footer-list-text">
+            Masukkan email untuk berlangganan berita terbaru
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Masukkan email" required class="input-field">
+
+            <button class="button-biru">
+              Submit
+            </button>
+          </form>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Developed by <a href="https://ilhanhj-portfolio-v2.vercel.app/" style="color:#ffc100">Ilhan Haffiyan
+            Juldan</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+  </a>
+
+
+
+
+
+
+
+</body>
+
+</html>
